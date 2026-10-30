@@ -1,0 +1,10 @@
+// Configuración: sustituye el valor vacío por el WhatsApp comercial con código de país (ej. 52 + 10 dígitos).
+const WHATSAPP_NUMBER = '522283005702';
+const bill = document.getElementById('bill');
+const savings = document.getElementById('savings');
+const money = amount => new Intl.NumberFormat('es-MX',{style:'currency',currency:'MXN',maximumFractionDigits:0}).format(amount);
+function updateEstimate(){const amount=Math.max(0,Number(bill.value)||0);const rate=Number(savings.value)/100;document.getElementById('savingValue').textContent=money(amount*rate);document.getElementById('annualValue').textContent=money(amount*rate*6)+' MXN';}
+bill.addEventListener('input',updateEstimate);savings.addEventListener('change',updateEstimate);updateEstimate();
+const menuToggle=document.getElementById('menuToggle'),nav=document.getElementById('mainNav');menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));menuToggle.textContent=open?'✕':'☰';});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');menuToggle.textContent='☰';}));
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('quoteForm').addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('name').value.trim(),city=document.getElementById('city').value.trim(),type=document.getElementById('type').value,msg=document.getElementById('message').value.trim();const text=`Hola, me interesa una cotización de paneles solares con Solecor MX.\nNombre: ${name}\nCiudad: ${city}\nProyecto: ${type}\nDetalles: ${msg||'Solicito información.'}`;if(!/^\d{11,15}$/.test(WHATSAPP_NUMBER)){document.getElementById('formNote').textContent='Falta configurar el número de WhatsApp comercial en script.js. Copia el mensaje y envíalo manualmente.';navigator.clipboard?.writeText(text).catch(()=>{});window.prompt('Copia este mensaje para WhatsApp:',text);return;}window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`,'_blank','noopener,noreferrer');});
