@@ -4,9 +4,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Veracruz puerto",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Veracruz puerto. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-01.webp",
+    "portada": "instalacion-01.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-01.webp"
+      "instalacion-01.webp"
     ]
   },
   {
@@ -14,9 +14,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Xalapa",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Xalapa. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-02.webp",
+    "portada": "instalacion-02.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-02.webp"
+      "instalacion-02.webp"
     ]
   },
   {
@@ -24,9 +24,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Orizaba",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Orizaba. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-03.webp",
+    "portada": "instalacion-03.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-03.webp"
+      "instalacion-03.webp"
     ]
   },
   {
@@ -34,9 +34,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Córdoba",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Córdoba. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-04.webp",
+    "portada": "instalacion-04.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-04.webp"
+      "instalacion-04.webp"
     ]
   },
   {
@@ -44,9 +44,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Xalapa",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Xalapa. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-05.webp",
+    "portada": "instalacion-05.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-05.webp"
+      "instalacion-05.webp"
     ]
   },
   {
@@ -54,9 +54,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Veracruz puerto",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Veracruz puerto. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-06.webp",
+    "portada": "instalacion-06.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-06.webp"
+      "instalacion-06.webp"
     ]
   },
   {
@@ -64,9 +64,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Córdoba",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Córdoba. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-07.webp",
+    "portada": "instalacion-07.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-07.webp"
+      "instalacion-07.webp"
     ]
   },
   {
@@ -74,9 +74,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Orizaba",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Orizaba. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-08.webp",
+    "portada": "instalacion-08.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-08.webp"
+      "instalacion-08.webp"
     ]
   },
   {
@@ -84,9 +84,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Xalapa",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Xalapa. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-09.webp",
+    "portada": "instalacion-09.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-09.webp"
+      "instalacion-09.webp"
     ]
   },
   {
@@ -94,9 +94,9 @@ window.SOLECOR_PROJECTS = [
     "categoria": "galeria",
     "ubicacion": "Veracruz puerto",
     "descripcion": "Instalación fotovoltaica realizada por Solecor MX en Veracruz puerto. Ficha técnica y características del sistema por documentar.",
-    "portada": "assets/proyectos/instalacion-10.webp",
+    "portada": "instalacion-10.webp",
     "imagenes": [
-      "assets/proyectos/instalacion-10.webp"
+      "instalacion-10.webp"
     ]
   }
 ];
